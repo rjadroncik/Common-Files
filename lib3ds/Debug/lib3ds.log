@@ -1,0 +1,117 @@
+﻿Build started 1/10/2015 12:16:20 AM.
+     1>Project "D:\dev\Shadow\Common Files\lib3ds\lib3ds.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\lib3ds.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt atmosphere.c background.c camera.c chunk.c ease.c file.c float.c io.c light.c material.c matrix.c mesh.c node.c quat.c shadow.c tcb.c tracks.c vector.c viewport.c
+         viewport.c
+     1>d:\dev\shadow\common files\lib3ds\viewport.c(86): warning C4057: 'function' : 'Lib3dsByte *' differs in indirection to slightly different base types from 'char [11]'
+     1>d:\dev\shadow\common files\lib3ds\viewport.c(160): warning C4057: 'function' : 'Lib3dsByte *' differs in indirection to slightly different base types from 'char [64]'
+     1>d:\dev\shadow\common files\lib3ds\viewport.c(254): warning C4057: 'function' : 'const Lib3dsByte *' differs in indirection to slightly different base types from 'char [11]'
+     1>d:\dev\shadow\common files\lib3ds\viewport.c(350): warning C4057: 'function' : 'const Lib3dsByte *' differs in indirection to slightly different base types from 'char [64]'
+         vector.c
+         tracks.c
+     1>d:\dev\shadow\common files\lib3ds\tracks.c(1329): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\tracks.c(1333): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\tracks.c(1355): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\tracks.c(1358): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\tracks.c(1367): warning C4100: 'io' : unreferenced formal parameter
+     1>d:\dev\shadow\common files\lib3ds\tracks.c(1367): warning C4100: 'track' : unreferenced formal parameter
+     1>d:\dev\shadow\common files\lib3ds\tracks.c(1378): warning C4100: 'io' : unreferenced formal parameter
+     1>d:\dev\shadow\common files\lib3ds\tracks.c(1378): warning C4100: 'track' : unreferenced formal parameter
+         tcb.c
+         shadow.c
+         quat.c
+         node.c
+     1>d:\dev\shadow\common files\lib3ds\node.c(410): warning C4100: 'file' : unreferenced formal parameter
+         mesh.c
+     1>d:\dev\shadow\common files\lib3ds\mesh.c(64): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\mesh.c(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\mesh.c(108): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\mesh.c(112): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\mesh.c(116): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\mesh.c(120): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\mesh.c(124): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\mesh.c(128): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\mesh.c(157): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         matrix.c
+         material.c
+         light.c
+     1>d:\dev\shadow\common files\lib3ds\light.c(65): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         io.c
+     1>d:\dev\shadow\common files\lib3ds\io.c(197): warning C4057: 'function' : 'Lib3dsByte *' differs in indirection to slightly different base types from 'Lib3dsIntb *'
+     1>d:\dev\shadow\common files\lib3ds\io.c(320): warning C4057: 'function' : 'Lib3dsByte *' differs in indirection to slightly different base types from 'char *'
+     1>d:\dev\shadow\common files\lib3ds\io.c(404): warning C4057: 'function' : 'const Lib3dsByte *' differs in indirection to slightly different base types from 'Lib3dsIntb *'
+     1>d:\dev\shadow\common files\lib3ds\io.c(522): warning C4057: 'function' : 'const Lib3dsByte *' differs in indirection to slightly different base types from 'const char *'
+         float.c
+         file.c
+     1>d:\dev\shadow\common files\lib3ds\file.c(128): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\dev\shadow\common files\lib3ds\file.c(183): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\dev\shadow\common files\lib3ds\file.c(224): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\file.c(1192): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\dev\shadow\common files\lib3ds\file.c(1193): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>d:\dev\shadow\common files\lib3ds\file.c(1194): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+         ease.c
+         chunk.c
+     1>d:\dev\shadow\common files\lib3ds\chunk.c(49): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>d:\dev\shadow\common files\lib3ds\chunk.c(47): warning C4100: 'c' : unreferenced formal parameter
+     1>d:\dev\shadow\common files\lib3ds\chunk.c(54): warning C4100: 'c' : unreferenced formal parameter
+     1>d:\dev\shadow\common files\lib3ds\chunk.c(165): warning C4100: 'c' : unreferenced formal parameter
+     1>d:\dev\shadow\common files\lib3ds\chunk.c(295): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+         camera.c
+     1>d:\dev\shadow\common files\lib3ds\camera.c(57): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         background.c
+         atmosphere.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(D:\dev\Shadow\Common Files\lib3ds\\..\lib3ds.lib) does not match the Library's OutputFile property value (D:\dev\Shadow\Common Files\lib3dsD.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(lib3ds) does not match the Library's OutputFile property value (lib3dsD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\dev\Shadow\Common Files\lib3ds\\..\lib3dsD.lib" /NOLOGO Debug\atmosphere.obj
+         Debug\background.obj
+         Debug\camera.obj
+         Debug\chunk.obj
+         Debug\ease.obj
+         Debug\file.obj
+         Debug\float.obj
+         Debug\io.obj
+         Debug\light.obj
+         Debug\material.obj
+         Debug\matrix.obj
+         Debug\mesh.obj
+         Debug\node.obj
+         Debug\quat.obj
+         Debug\shadow.obj
+         Debug\stdafx.obj
+         Debug\tcb.obj
+         Debug\tracks.obj
+         Debug\vector.obj
+         Debug\viewport.obj
+         lib3ds.vcxproj -> D:\dev\Shadow\Common Files\lib3ds\\..\lib3ds.lib
+     1>Done Building Project "D:\dev\Shadow\Common Files\lib3ds\lib3ds.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.43
