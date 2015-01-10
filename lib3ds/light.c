@@ -20,9 +20,9 @@
  * $Id: light.c,v 1.10 2001/07/11 13:47:35 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <light.h>
-#include <chunk.h>
-#include <io.h>
+#include "light.h"
+#include "chunk.h"
+#include "io.h"
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>

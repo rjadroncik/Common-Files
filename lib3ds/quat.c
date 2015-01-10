@@ -20,7 +20,7 @@
  * $Id: quat.c,v 1.5 2001/01/12 10:29:17 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <quat.h>
+#include "quat.h"
 #include <math.h>
 
 

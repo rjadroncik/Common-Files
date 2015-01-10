@@ -20,8 +20,8 @@
  * $Id: tcb.c,v 1.9 2001/07/07 19:05:30 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <tcb.h>
-#include <io.h>
+#include "tcb.h"
+#include "io.h"
 #include <math.h>
 
 

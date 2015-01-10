@@ -20,8 +20,8 @@
  * $Id: matrix.c,v 1.7 2001/01/12 10:29:17 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <matrix.h>
-#include <quat.h>
+#include "matrix.h"
+#include "quat.h"
 #include <vector.h>
 #include <string.h>
 #include <math.h>

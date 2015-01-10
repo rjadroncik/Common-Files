@@ -20,11 +20,11 @@
  * $Id: mesh.c,v 1.20 2001/11/14 22:44:52 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <mesh.h>
-#include <io.h>
-#include <chunk.h>
-#include <vector.h>
-#include <matrix.h>
+#include "mesh.h"
+#include "io.h"
+#include "chunk.h"
+#include "vector.h"
+#include "matrix.h"
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>

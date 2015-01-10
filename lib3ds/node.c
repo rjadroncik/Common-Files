@@ -20,11 +20,11 @@
  * $Id: node.c,v 1.12 2001/07/07 19:05:30 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <node.h>
-#include <file.h>
-#include <io.h>
-#include <chunk.h>
-#include <matrix.h>
+#include "node.h"
+#include "file.h"
+#include "io.h"
+#include "chunk.h"
+#include "matrix.h"
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>

@@ -20,9 +20,9 @@
  * $Id: camera.c,v 1.10 2001/07/07 19:05:30 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <camera.h>
-#include <chunk.h>
-#include <io.h>
+#include "camera.h"
+#include "chunk.h"
+#include "io.h"
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>

@@ -20,15 +20,15 @@
  * $Id: file.c,v 1.19 2001/08/07 10:25:43 vividos Exp $
  */
 #define LIB3DS_EXPORT
-#include <file.h>
-#include <chunk.h>
-#include <io.h>
-#include <material.h>
-#include <mesh.h>
-#include <camera.h>
-#include <light.h>
-#include <node.h>
-#include <vector.h>
+#include "file.h"
+#include "chunk.h"
+#include "io.h"
+#include "material.h"
+#include "mesh.h"
+#include "camera.h"
+#include "light.h"
+#include "node.h"
+#include "vector.h"
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>

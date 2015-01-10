@@ -20,9 +20,9 @@
  * $Id: shadow.c,v 1.8 2001/07/07 19:05:30 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <shadow.h>
-#include <chunk.h>
-#include <io.h>
+#include "shadow.h"
+#include "chunk.h"
+#include "io.h"
 #include <math.h>
 
 

@@ -20,9 +20,9 @@
  * $Id: viewport.c,v 1.6 2001/11/14 22:44:52 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <viewport.h>
-#include <chunk.h>
-#include <io.h>
+#include "viewport.h"
+#include "chunk.h"
+#include "io.h"
 #include <stdlib.h>
 #include <string.h>
 

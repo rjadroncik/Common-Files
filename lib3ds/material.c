@@ -20,9 +20,9 @@
  * $Id: material.c,v 1.16 2002/01/14 00:53:10 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <material.h>
-#include <chunk.h>
-#include <io.h>
+#include "material.h"
+#include "chunk.h"
+#include "io.h"
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>

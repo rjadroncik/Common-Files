@@ -20,9 +20,9 @@
  * $Id: background.c,v 1.8 2001/07/07 19:05:30 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <background.h>
-#include <chunk.h>
-#include <io.h>
+#include "background.h"
+#include "chunk.h"
+#include "io.h"
 #include <string.h>
 #include <math.h>
 

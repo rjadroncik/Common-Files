@@ -20,7 +20,7 @@
  * $Id: ease.c,v 1.4 2001/01/12 10:29:17 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <ease.h>
+#include "ease.h"
 
 
 /*!

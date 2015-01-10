@@ -20,12 +20,12 @@
  * $Id: tracks.c,v 1.11 2001/07/07 19:05:30 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <tracks.h>
-#include <io.h>
-#include <chunk.h>
-#include <float.h>
-#include <vector.h>
-#include <quat.h>
+#include "tracks.h"
+#include "io.h"
+#include "chunk.h"
+#include "float.h"
+#include "vector.h"
+#include "quat.h"
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>

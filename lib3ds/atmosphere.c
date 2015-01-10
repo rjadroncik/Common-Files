@@ -20,9 +20,9 @@
  * $Id: atmosphere.c,v 1.9 2001/07/07 19:05:30 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <atmosphere.h>
-#include <chunk.h>
-#include <io.h>
+#include "atmosphere.h"
+#include "chunk.h"
+#include "io.h"
 
 
 /*!

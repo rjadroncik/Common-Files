@@ -20,7 +20,7 @@
  * $Id: io.c,v 1.3 2001/07/11 13:47:35 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <io.h>
+#include "io.h"
 #include <stdlib.h>
 #include <string.h>
 

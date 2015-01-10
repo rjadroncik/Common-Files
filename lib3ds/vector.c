@@ -20,7 +20,7 @@
  * $Id: vector.c,v 1.7 2001/06/16 14:00:50 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <vector.h>
+#include "vector.h"
 #include <math.h>
 
 

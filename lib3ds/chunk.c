@@ -20,9 +20,9 @@
  * $Id: chunk.c,v 1.14 2001/07/07 19:05:30 jeh Exp $
  */
 #define LIB3DS_EXPORT
-#include <chunk.h>
-#include <io.h>
-#include <chunktable.h>
+#include "chunk.h"
+#include "io.h"
+#include "chunktable.h"
 #include <string.h>
 #include <stdarg.h>
 
